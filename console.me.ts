@@ -1,4 +1,10 @@
-const kindWords = [
+declare global {
+	interface Console {
+		me: () => void;
+	}
+}
+
+const kindWords: string[] = [
 	"You are doing great!",
 	"You are doing amazing!",
 	"You are doing wonderful!",
@@ -17,7 +23,7 @@ const kindWords = [
 	"I believe in you!",
 ];
 
-const kindEmojis = [
+const kindEmojis: string[] = [
 	"👍",
 	"👏",
 	"👌",
@@ -49,14 +55,16 @@ console.me = () => {
 	console.log(kindEmoji, kindWord);
 };
 
-function randomFrom(array) {
+function randomFrom<T>(array: T[]) {
 	return array[randomArrayIndex(array.length)];
 }
 
-function randomArrayIndex(length) {
+function randomArrayIndex(length: number) {
 	const randomBetween0andLength = Math.floor(Math.random() * length);
 	// if Math.random() === 1, then we will get an out of bounds index
 	// so clamp at the last index
 	const clamp = Math.min(randomBetween0andLength, length - 1);
 	return clamp;
 }
+
+export {};
