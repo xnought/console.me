@@ -43,7 +43,7 @@ const kindEmojis: string[] = [
 
 /**
  * People ask about program, but do they ever ask how you are?
- * we must must console each other through code
+ * You can ask your cpu to console you during this tough time with console.me()
  *
  *  **Example**
  *  console.me();
