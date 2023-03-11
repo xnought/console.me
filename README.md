@@ -2,7 +2,12 @@
 
 They ask about the product, but not how you are doing. 
 
+> `console` defined by [dictionary.com](https://www.dictionary.com/browse/console): to alleviate or lessen the grief, sorrow, or disappointment of; give solace or comfort
+> 
+
 You can request to be consoled by asking your cpu nicely: `console.me(); // pretty please :)`
+
+Why `console.log` when you can `console.me`?
 
 ## Usage
 
