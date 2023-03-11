@@ -1,0 +1,12 @@
+{
+  "name": "console.me",
+  "version": "1.0.0",
+  "description": "A package that allows you to console yourself for your tough day.",
+  "main": "console.me.js",
+  "scripts": {
+    "dev": "node console.me.js"
+  },
+  "repository": "git@github.com:xnought/console.me.git",
+  "author": "xnought <bertuccd@oregonstate.edu>",
+  "license": "MIT"
+}
