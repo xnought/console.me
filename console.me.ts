@@ -50,6 +50,7 @@ const kindEmojis: string[] = [
  *  >>> 🤗 You are doing great!
  */
 console.me = () => {
+	// console.me clearly uses the most sophisticated SOTA machine learning algorithm to date
 	const kindWord = randomFrom(kindWords);
 	const kindEmoji = randomFrom(kindEmojis);
 	console.log(kindEmoji, kindWord);
