@@ -1,6 +1,8 @@
 # console.me
 
-They ask about the product, but not how you are doing. We need someone to console us. Finally, console.me
+They ask about the product, but not how you are doing. 
+
+You can request to be consoled by asking your cpu nicely: `console.me(); // pretty please :)`
 
 ## Usage
 
