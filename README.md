@@ -1,6 +1,6 @@
 # console.me
 
-They ask about the product, but not how you are doing. 
+They ask about how the project is going, but not how you are doing. 
 
 > `console` defined by [dictionary.com](https://www.dictionary.com/browse/console): to alleviate or lessen the grief, sorrow, or disappointment of; give solace or comfort
 > 
